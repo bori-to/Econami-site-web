@@ -1,0 +1,47 @@
+.fond{
+	
+	
+	padding-bottom: 20px;
+	
+}
+.fond2{
+	background-color: rgba(185, 168, 124, 0.5);
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.2);
+}
+.montant{
+	font-size: 40px;
+	
+}
+.titre{
+	font-size: 40px;
+	
+	
+}
+.line_jaune{
+    height: 2px;
+    object-fit: cover;
+    border: 2px solid #DCD488;
+	z-index: 3;
+}
+.line1{
+    height: 2px;
+    object-fit: cover;
+    border: 2px solid #DCD488;
+	z-index: 3;
+	position: relative;top: 200px;
+}
+.bi-currency-euro{
+	font-size: 100px;
+}
+.bi-percent{
+	font-size: 100px;
+}
+.numpour{
+	padding-top: 50px;
+	padding-right: 50px;
+}
+.numpour1{
+	padding-top: 50px;
+	padding-right: 50px;
+}

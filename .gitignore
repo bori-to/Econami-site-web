@@ -1,0 +1,3 @@
+**/*.out            # Tous les fichiers qui se finissent par `.out` dans toute l'arborescence du projet.
+./build/debug/*     # Tous les fichiers présents dans le fichier `debug`.
+node_modules        # Dossier contenant les node_modules.

@@ -1,0 +1,103 @@
+body { overflow-x: hidden; }
+
+.reg{
+	height: 350px;
+	background-color: #DCD488;
+	border-radius: 20px;
+	transform: rotate(-2deg);
+	margin-top: 50px;
+}
+
+.slogan{
+	font-size: 50px;
+	transform: rotate(2deg);
+	position: absolute;
+	left: 200px;
+}
+
+.slogan1{
+	font-size: 50px;
+	top: 50px;
+	transform: rotate(2deg);
+	position: absolute;
+	left: 125px;
+}
+
+.logo-banner{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	transform: rotate(2deg);
+}
+
+.reg button{
+	transform: rotate(2deg);
+}
+
+.reduc{
+	display: block;
+}
+
+.coupage{
+	position: absolute;
+	left: 425px;
+	top: 240px;
+}
+
+.coupage button a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.piggy{
+	position: absolute;
+	top: 25px;
+	left: 800px;
+	height: 250px;
+	transform: rotate(2deg);
+}
+
+.en1{
+	position: absolute;
+	left: 275px;
+	top: 300px;
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.en2{
+	position: absolute;
+	left: 475px;
+	top: 307px;
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.en3{
+	position: absolute;
+	left: 690px;
+	top: 310px;
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.tr{
+	height: 350px;
+	background-color: rgba(185, 168, 124, 0.5);
+}
+
+.line{
+	height: 2px;
+	object-fit: cover;
+	border: 2px solid #8e8885;
+}
+
+.mil{
+	font-size: 25px;
+}
+

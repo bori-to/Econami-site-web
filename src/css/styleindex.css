@@ -1,0 +1,297 @@
+body { overflow-x: hidden; }
+
+/*.piggy{
+    position: absolute;
+    top: 0px;
+    right: 500px;
+}
+*/
+.reg{
+	height: 350px;
+	background-color: #DCD488;
+	border-radius: 20px;
+	transform: rotate(-2deg);
+	margin-top: 50px;
+}
+
+.slogan{
+	font-size: 50px;
+	transform: rotate(2deg);
+}
+
+.slogan1{
+	font-size: 50px;
+	transform: rotate(2deg);	
+}
+
+.logo-banner{
+	transform: rotate(2deg);
+}
+
+.reg button{
+	transform: rotate(2deg);
+}
+
+.reduc{
+	display: block;
+}
+
+
+.coupage button{
+	background-color: #B9A87C;
+	border-color: #B9A87C;
+}
+
+.coupage button a{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.piggy{
+	transform: rotate(2deg);
+}
+
+.en1{
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.en2{
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.en3{
+	transform: rotate(2deg);
+	color: #8E8885;
+	font-size: 20px;
+}
+
+.tr{
+	height: 350px;
+	background-color: rgba(185, 168, 124, 0.5);
+}
+
+.trSizeOffre{
+    height: 425px;
+    background-color: rgba(185, 168, 124, 0.5);
+}
+
+.trVip{
+    height: 450px;
+    background-color: rgba(185, 168, 124, 0.5);
+}
+
+.line{
+	height: 2px;
+	object-fit: cover;
+	border: 2px solid #8e8885;
+}
+
+.mil{
+	font-size: 25px;
+}
+
+.sizeT{
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .trVip{
+        height: 675px;
+        line-height: 30px;
+    }
+
+    .sizeT{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .trVip{
+        height: 800px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tr{
+        height: 300px;
+    }
+    .reg{
+        height: 300px;
+    }
+
+   .slogan {
+    font-size: 25px;
+  }
+
+  .sizeEconami{
+    height: 30px;
+  }
+
+  .sizePiggy{
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .trSizeOffre{
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .trSizeOffre{
+        height: 400px;
+    }
+}
+
+
+
+/*Offres Carousel*/
+
+.item {
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 15px 35px #3232321a,0 5px 15px #0000001a;
+    transition: transform .3s;
+    transform: translate3d(0,-1px,0)
+}
+
+.item:hover {
+    transform: translate3d(0,-10px,0)
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.item__body {
+    padding: 25px
+}
+
+.item__title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #232323
+}
+
+.item__description {
+    color: #585858
+}
+
+.carousel,.items {
+    position: relative
+}
+
+.carousel {
+    margin-bottom: 30px
+}
+
+.carousel__container {
+    transition: transform .3s;
+    transform: translateZ(0)
+}
+
+.carousel__container:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.carousel__item {
+    float: left
+}
+
+.carousel__next,.carousel__prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff url(images/r.png) 50% no-repeat;
+    background-size: 20px 20px;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -20px;
+    right: -20px;
+    box-shadow: 0 15px 35px #3232321a,0 5px 15px #0000001a;
+    cursor: pointer;
+    transition: transform .3s,opacity .3s
+}
+
+.carousel__next:hover,.carousel__prev:hover {
+    transform: scale(1.2)
+}
+
+.carousel__prev {
+    background-image: url(images/l.png);
+    right: auto;
+    left: -20px
+}
+
+.carousel__next--hidden,.carousel__prev--hidden {
+    opacity: 0
+}
+
+.carousel__pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+
+.carousel__pagination__button {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 3px;
+    box-shadow: 0 2px 5px #3232321a;
+    transition: transform .3s;
+    cursor: pointer
+}
+
+.carousel__pagination__button--active,.carousel__pagination__button:hover {
+    transform: scale(1.4)
+}
+
+@media screen and (min-width: 800px) {
+    .carousel__pagination {
+        display:block
+    }
+}
+
+
+
+
+/* Partie Vendres*/
+
+.flex-container {
+  font-size: 2rem;
+  line-height: 30px;
+  display: flex;
+  padding-top: 25px;
+}
+
+.exemple-ventes-1 {
+  flex-basis: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 400px;
+}
+
+
+.flex-container-1 {
+  height: 50%;
+  flex-direction: column;
+}
+

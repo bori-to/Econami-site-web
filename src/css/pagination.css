@@ -1,0 +1,28 @@
+#pagination {
+text-align: center;
+padding-bottom: 10px;
+padding-top: 15px;
+}
+
+
+#pagination .page-numbers {
+color: white;
+background-color: #DCD488;
+text-decoration: none;
+padding: 10px;
+}
+
+#pagination .page-numbers:hover {
+  color: #DCD488;
+  background-color: #fff;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+ }
+
+#pagination span.page-numbers.current {
+background-color: white;
+color: #DCD488;
+text-decoration: none;
+}

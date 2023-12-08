@@ -1,0 +1,465 @@
+/*////////////////////////////////////
+// design du back
+//////////////////////////////////
+*/
+
+.annonce__para__btn{
+	margin-right: 5px;
+	display: inline-flex;
+	font-size: 15px;
+}
+
+.btn__valide{
+	background: #82ccdd;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.btn__vendus{
+	background: #78e08f;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.btn__novalide{
+	background: #b71540;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.btn__back__non-valide{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn__back__non-valide button{
+    color: black;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    transition: all .5s ease;
+}
+
+.btn__back__non-valide #btn-trier-offValide{
+    background: #b71540;
+}
+
+.btn__back__non-valide #btn-trier-valide{
+    background: #82ccdd;
+}
+
+.btn__back__non-valide #btn-trier-vendus{
+    background: #78e08f;
+}
+
+.btn__back__non-valide button:hover, .btn__back__non-valide button:focus{
+	transition: all .5s ease;
+	color: black;
+	box-shadow: none;
+}
+
+/*////////////////////////////////////
+// design de la pagination bouton
+//////////////////////////////////
+*/
+
+.achats__btn__pagination{
+	background: #DCD488;
+	color: black;
+	cursor: pointer;
+	border: 0;
+	padding: 0.375rem;
+	border-radius: 6px;
+	font-size: .8rem;
+	text-decoration: none;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	transition: all .5s ease;
+	justify-content: center
+}
+
+.forum__btn__create:hover, .forum__btn__create:focus{
+	transition: all .5s ease;
+	color: black;
+	box-shadow: none;
+}
+
+/*////////////////////////////////////
+// design de l'annonce
+//////////////////////////////////
+*/
+.body__link__achat{
+	color: black;
+	text-decoration: none;
+	margin-bottom: 25px;
+}
+
+.body__achat{
+	background: white; 
+	border-radius: 10px; 
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.025), 0 0  0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+	transition: all .5s ease;
+}
+
+.body__achat:hover, .body__achat:focus{
+	transition: all .5s ease;
+	color: black;
+	box-shadow: none;
+	background: #EDEAEA; 
+}
+
+.body__montant{
+	font-weight: bold; 
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	font-size: 1.5rem;
+}
+
+.body__pseudo{
+	display: flex;
+	align-items: center;
+	padding-bottom: 0.375rem;
+	padding-left: 0.375rem;
+	padding-right: 0.375rem;
+	font-size: .8rem;
+}
+
+.body__pseudo i{
+	margin-right: 5px;
+	display: flex;
+}
+
+.body__date{
+	display: flex;
+	align-items: center;
+	padding: 0.375rem;
+	font-size: .8rem;
+}
+
+.body__date i{
+	margin-right: 5px;
+	display: flex;
+}
+
+.body__prix{
+	font-weight: bold; 
+	color: grey;
+	font-size: 1.25rem;
+}
+
+.body__prix:hover, .body__prix:focus{
+	transition: all .5s ease;
+	color: black;
+}
+
+/*////////////////////////////////////
+// design de la page achats
+//////////////////////////////////
+*/
+
+.achats__h1{
+	display: flex;
+	align-items: center;
+}
+
+.achat__body{
+	background: white; 
+	border-radius: 10px; 
+	transition: all .5s ease;
+}
+
+.croissant__btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.croissant__btn:hover {
+  background-color: #DCD488;
+  box-shadow: 0px 15px 20px rgba(220, 212, 136, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.croissant__btn:active {
+  transform: translateY(-1px);
+}
+
+/*////////////////////////////////////
+// design de la page achats filtre
+//////////////////////////////////*/
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar-wrapper {
+	overflow-x: hidden;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow-y: auto;
+    background: rgba(185, 168, 124, 0.5);
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+.burger__filter{
+	color: black;
+}
+
+.burger__filter i{
+	font-size: 25px;
+}
+
+.body__filter{
+	padding: 10px 10px;
+}
+
+.filter__visible{
+	display: none;
+	transition: all 0.5s ease;
+}
+
+
+.annonce_body{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.body__annonce{
+	width: 30%; 
+	margin-right: 25px; 
+	margin-bottom: 25px;
+}
+
+.btn_filtre{
+	background: #DCD488;
+	color: black;
+	cursor: pointer;
+	border: 0;
+	padding: 0.375rem 45px;
+	border-radius: 6px;
+	font-size: .9rem;
+	text-decoration: none;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+	transition: all .5s ease;
+}
+
+.btn_filtre:hover, .btn_filtre:focus{
+	transition: all .5s ease;
+	color: black;
+	box-shadow: none;
+}
+
+.btn_filtre i{
+	margin-right: 5px;
+	display: flex;
+}
+
+
+/* annonce__info */
+
+.annonce__info{
+	background: white; 
+	border-radius: 10px; 
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.025), 0 0  0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+	transition: all .5s ease;
+	margin-bottom: 25px;
+}
+
+.annonce__info:hover, .annonce__info:focus{
+	transition: all .5s ease;
+	color: black;
+	box-shadow: none;
+	background: #EDEAEA; 
+}
+
+.annonce__info__marque{
+	padding-top: 10px;
+	font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.annonce__info__reduction{
+	border-radius: 10px;
+	border: 1px solid rgba(220, 212, 136, .5);
+	background: #EDEAEA;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.annonce__info__reduction div{
+	margin: 0;
+	font-size: 28px;
+}
+
+.annonce__info__expiration{
+	border-radius: 10px;
+	background: #EDEAEA;
+	font-weight: 500;
+	margin-bottom: 2.5px;
+}
+
+.annonce__info__creation{
+	border-radius: 10px;
+	background: #EDEAEA;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+.annonce__info__pseudo{
+	border-radius: 10px;
+	background: #EDEAEA;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.annonce__info__prix{
+	border-radius: 10px;
+	border: 1px solid rgba(220, 212, 136, .5);
+	background: #EDEAEA;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.img__annonce__logo{
+	rotate: 90deg;
+	margin: 150px 0;
+}
+
+/* Panier BNT */
+.btn__panier {
+	height: 3em;
+	border: none;
+	border-radius: 10em;
+	background: #DCD488;
+	font-size: 17px;
+	color: #ffffff;
+	font-family: inherit;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.btn__panier:hover {
+ animation: shake3856 0.75s linear infinite both;
+}
+
+@keyframes shake3856 {
+ 0% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+
+ 20% {
+  -webkit-transform: translate(-2px, 2px);
+  transform: translate(-2px, 2px);
+ }
+
+ 40% {
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+ }
+
+ 60% {
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+ }
+
+ 80% {
+  -webkit-transform: translate(2px, -2px);
+  transform: translate(2px, -2px);
+ }
+
+ 100% {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+ }
+}
+
+/*Style panier.php*/
+
+.btn__suppr{
+	background: 0 0;
+    border: 0;
+    color: #0066C0;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    font: inherit;
+    line-height: inherit;
+}
+
+.btn__suppr:hover, .btn__suppr:focus{
+	text-decoration: underline;
+}
+
+/* Sidebar Styles */
+@media(min-width:768px) {
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+}
+
+@media(max-width:1200px){
+	.body__annonce{
+    	width: 45%;
+    }
+}
+
+@media(max-width:768px){
+	.body__annonce{
+    	width: 100%;
+    	margin-right: 0;
+    }
+
+    .img__annonce__logo{
+    	display: none;
+	}
+}
+
+
+

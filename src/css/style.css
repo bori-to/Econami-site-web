@@ -1,0 +1,35 @@
+header li a{
+	display: block;
+	padding: 20px;
+	margin-right: 10px;
+}
+
+.space{
+	display: block;
+	margin-right: 50px;
+}
+
+header li a:hover{
+	text-decoration: underline;
+}
+
+header li:hover .sub-menu{
+	display: block;
+}
+
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+}
+
+header li a {
+	display: block;
+	padding: 20px;
+}
+
+.size{
+	font-size: 20px;
+}

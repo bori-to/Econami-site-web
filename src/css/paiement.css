@@ -1,0 +1,55 @@
+.container_paiement{
+	background-color: rgba(185, 168, 124, 0.5);
+	border-radius: 10px;
+	margin-bottom: auto;
+	margin-top: auto;
+    --bs-gutter-y: 1.5rem;
+    padding-bottom: calc(var(--bs-gutter-y) * .5);
+    padding-top: calc(var(--bs-gutter-y) * .5);
+}
+
+.container-fluid{
+	margin-bottom: auto;
+	margin-top: auto;
+    --bs-gutter-y: 1.5rem;
+    padding-bottom: calc(var(--bs-gutter-y) * .5);
+    padding-top: calc(var(--bs-gutter-y) * .5);
+}
+
+
+.btn__link {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #DCD488;
+  background-color: #EDEAEA;
+}
+
+.btn__link:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #DCD488;
+}
+
+.btn__link:active {
+  transform: scale(0.9);
+}
+
+.btn__link a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn__link a:hover {
+  color: #EDEAEA;
+}

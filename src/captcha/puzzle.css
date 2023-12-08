@@ -1,0 +1,19 @@
+#board {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+#board img {
+    width: 100px;
+    height: 100px;
+    border: 0.1px solid #6c757d;
+}
+
+@media screen and (max-width: 430px){
+    #board img {
+        width: 75px;
+        height: 75px;
+    }
+}
