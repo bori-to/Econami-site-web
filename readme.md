@@ -1,35 +1,38 @@
 # Econami-site-web
-Création d'un site WEB pour le projet annuel de l'école ESGI
+![GitHub Repo stars](https://img.shields.io/github/stars/bori-to/Econami-site-web)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Construire et configurer un site Web dynamique. Une programmation WEB dynamique "from scratch", Réalisation d'un back-office et front-office complet, Base de données avec MariaDB, Utilisation d'un VPS OVH, Création de captcha, utilisation de PHPMailer, Api fetch javascript, bootstrap etc ...
+Creation of a WEB site for the annual project of the ESGI school
 
-Econami c'est quoi ?
-Un site WEB de Ventes et Achats de Coupon de Réduction.
-Avec un Forum, un espace VIP, des ventes privée, un système de points, etc... 
+Build and configure a dynamic website. Dynamic WEB programming "from scratch", Creation of a complete back-office and front-office, Database with MariaDB, Use of an OVH VPS, Creation of captcha, use of PHPMailer, Api fetch javascript, bootstrap etc. ..
+
+What is Econami?
+A Discount Coupon Sales and Purchases WEBSITE.
+With a Forum, a VIP area, private sales, a points system, etc...
 
 ![Logo Econami](src/images/econami2.png)
 
 
-## 📜 Prérequis
+## 📜 Previously
 
-Installer un serveur LAMP (Linux, Apache, MySQL/MariaDB, PHP) :
+Install a LAMP server (Linux, Apache, MySQL/MariaDB, PHP):
 
-- Avoir les extensions PHP suivante :
+- Have the following PHP extensions:
 ```bash
 php-mysql php-pdo php-gd php-curl php-json php-mbstring php-xml php-zip php-openssl php-intl
 ```
-- Créer la BDD "econami" à l'aide du fichier dump.sql
+- Create the "econami" database using the `dump.sql` file
 
 ## 🚀 Installation
-1. Cloner le dépôt GitHub :
+1. Clone the GitHub repository:
 ```bash
 git clone https://github.com/bori-to/Econami-site-web.git
 ```
-2. Accéder au répertoire du projet :
+2. Access the project directory:
 ```bash
 cd Econami-site-web
 ```
-3. Éditer les fichiers suivant:  
-- les paramètres BDD include/db.php
-- l'email dans include/email.php, abs_users.php, mail.php, vente_verif.php
-- la config stripe dans paiement/config.php
+3. Edit the following files:
+- BDD parameters `include/db.php`
+- the email in `include/email.php`, `abs_users.php`, `mail.php`, `vente_verif.php`
+- the stripe config in `payment/config.php`
