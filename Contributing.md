@@ -1,39 +1,39 @@
-# Contribuer à Econami
+# Contribute to Econami
 
-Tout d'abord, merci de vouloir contribuer à Econami. Ce sont des gens comme vous qui vont faire devenir Econami le meilleur site de Ventes - Achats de Coupon de Réduction.
+First of all, thank you for wanting to contribute to Econami. It's people like you who will make Econami the best Discount Coupon Sales - Purchase site.
 
-## Où dois-je aller à partir d'ici ?
+## Where should I go from here ?
 
-Si vous avez remarqué un bug ou si vous avez une demande de fonctionnalité, faites le premier pas en créant un problème dans le référentiel GitHub. C'est la première étape pour contribuer à Notre site WEB !
+If you've noticed a bug or have a feature request, take the first step by creating an issue in the GitHub repository. This is the first step to contributing to Our WEBSITE !
 
-## Fork et créer une branche
+## Fork and create a branch
 
-Si c'est quelque chose que vous pensez pouvoir résoudre, alors créez le référentiel et créez une branche avec un nom descriptif.
+If this is something you think you can fix, then create the repository and create a branch with a descriptive name.
 
-Un bon nom de branche serait (où le numéro 5 est le ticket sur lequel vous travaillez) :
+A good branch name would be (where number 5 is the ticket you are working on):
 
 ```bash
 git checkout -b feature/55-add-name-update
 ```
 
-## Implémentez votre correctif ou votre fonctionnalité
+## Implement your fix or feature
 
-À ce stade, vous êtes prêt à apporter vos modifications ! N'hésitez pas à demander de l'aide ; tout le monde est débutant au début.
+At this point, you are ready to make your changes! Do not hesitate to ask for help, everyone is a beginner at the beginning.
 
-## Écrivez un bon message de commit
+## Write a good commit message
 
-Écrivez un bon message de commit.
+Write a good commit message.
 
-Exemple:
+Example:
 ```bash
 git commit -m "[UPDATE] features update #5"
 ```
 
-## Soumettre une pull request
+## Submit a pull request
 
-Poussez votre branche vers votre fork sur GitHub, puis appuyez sur le New pull requestbouton, et vous êtes prêt à partir !
+Push your branch to your fork on GitHub, then hit the New pull request button, and you're good to go !
 
-C'est généralement une bonne idée que le contenu d'un PR couvre exactement un problème spécifique et d'avoir une référence à ce problème dans la description de votre pull request.
+It's generally a good idea to have the content of a PR exactly cover a specific issue and to have a reference to that issue in your pull request description.
 
 
-# Merci encore pour votre contribution !
+# Thanks again for your contribution !
