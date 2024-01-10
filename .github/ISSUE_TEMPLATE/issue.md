@@ -1,3 +1,12 @@
+---
+name: issue
+about: Describe your issue.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 ## Issue
 
 **Description of the problem :**
